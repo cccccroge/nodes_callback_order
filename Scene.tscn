@@ -1,0 +1,104 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Button.gd" type="Script" id=1]
+
+[node name="Scene" type="ReferenceRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 89.0
+margin_top = 211.0
+margin_right = -95.0
+margin_bottom = -68.0
+border_color = Color( 0.478431, 0.682353, 1, 1 )
+editor_only = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonA" type="Button" parent="."]
+margin_left = 116.385
+margin_top = 38.0069
+margin_right = 288.385
+margin_bottom = 113.007
+text = "A"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonC" type="Button" parent="ButtonA"]
+margin_left = -22.4585
+margin_top = 102.513
+margin_right = 67.5415
+margin_bottom = 150.513
+text = "C"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonD" type="Button" parent="ButtonA"]
+margin_left = 107.822
+margin_top = 102.513
+margin_right = 197.822
+margin_bottom = 150.513
+text = "D"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonB" type="Button" parent="."]
+margin_left = 500.721
+margin_top = 37.5931
+margin_right = 675.721
+margin_bottom = 112.594
+text = "B"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonE" type="Button" parent="ButtonB"]
+margin_left = 40.4761
+margin_top = 103.354
+margin_right = 130.476
+margin_bottom = 151.354
+text = "E"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonF" type="Button" parent="ButtonB/ButtonE"]
+margin_left = -104.465
+margin_top = 74.2187
+margin_right = -14.4651
+margin_bottom = 122.219
+text = "F"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonG" type="Button" parent="ButtonB/ButtonE"]
+margin_left = 3.29126
+margin_top = 73.3206
+margin_right = 93.2913
+margin_bottom = 121.321
+text = "G"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonH" type="Button" parent="ButtonB/ButtonE"]
+margin_left = 112.843
+margin_top = 75.1167
+margin_right = 202.843
+margin_bottom = 123.117
+text = "H"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
